@@ -1,0 +1,15 @@
+CompileFlags:
+  Add:
+    - -std=c++17
+    - -DCGP_OPENGL_3_3
+    - -DIMGUI_IMPL_OPENGL_LOADER_GLAD
+    - -DCGP_ERROR_EXCEPTION
+    - -DSOLUTION
+    - -I.
+    - -I..
+    - -I../..
+    - -I../../..
+    - -I../cgp
+    - -I../../cgp
+    - -I../../../cgp
+    - -Icgp
